@@ -11,7 +11,7 @@ export const MenuIcon = () => (
 const Header = () => {
   return (
       <div className='flex items-center justify-between p-4 border border-zinc-200'>
-        <img src="public/assets/images/image-logo.svg" alt="logo" />
+        <img src="assets/images/image-logo.svg" alt="logo" />
         <MenuIcon />
       </div>
   )
