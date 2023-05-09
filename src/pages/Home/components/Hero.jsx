@@ -53,11 +53,11 @@ const Hero = () => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})`}} 
         className='w-full h-full duration-500 bg-center bg-cover rounded-2xl'></div>
       {/* LeftArrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+      <div className='hidden group-hover:block absolute top-[45%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft  size={30} onClick={handlePrev}/>
       </div>
       {/* RightArrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+      <div className='hidden group-hover:block absolute top-[45%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactRight size={30} onClick={handleNext}/>
       </div>
       <div className='flex justify-center py-2 top-4'>
